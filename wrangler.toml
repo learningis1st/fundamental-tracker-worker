@@ -1,4 +1,4 @@
-name = "fundamental-tracker"
+name = "dividend-tracker"
 main = "worker.js"
 compatibility_date = "2026-02-20"
 
