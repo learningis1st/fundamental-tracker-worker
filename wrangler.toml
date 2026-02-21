@@ -1,0 +1,16 @@
+name = "dividend-tracker"
+main = "worker.js"
+compatibility_date = "2026-02-20"
+
+d1_databases = [
+    { binding = "DB", database_name = "dashboard-db", database_id = "bd30561e-5dc1-42fd-a24a-083765c50598" }
+]
+
+workers_dev = false
+preview_urls = false
+
+[triggers]
+crons = ["0 8 * * *"]
+
+[observability.logs]
+enabled = true
